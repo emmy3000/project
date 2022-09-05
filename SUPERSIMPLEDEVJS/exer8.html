@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+  </head>
+
+  <body>
+
+    <button  style="margin-bottom: 40px;" id="todo-button" 
+    onclick="ChangeToDone()">To Do</button>
+
+    <div style="margin-top: 20px;" id="counter">0</div>
+    <button onclick="countUp()">Up</button>
+    <button onclick="countDown()">Down</button>
+
+    <input style="
+          display: block;
+          margin-top: 30px;" 
+          type="textbox"
+          id="input-text"
+          />
+    
+    <button onclick="insertText()">Click</button>    
+
+
+
+    <script>
+
+      function ChangeToDone(){
+        let button = document.getElementById('todo-button');
+        button.innerText= 'Done';
+      }
+
+      let count = 0;
+     
+      function countUp(){
+        count = count + 1;
+        let counter = document.getElementById('counter');
+        counter.innerText= count;
+      }
+
+      function countDown(){
+        count = count - 1;
+        let counter = document.getElementById('counter');
+        counter.innerText= count;
+      }
+
+      function insertText(){
+        let textbox = document.getElementById('input-text');
+        let title = textbox.value;
+
+        let div = document.createElement('div')
+        div.innerText = title;
+        document.body.appendChild(div);
+
+        
+      }
+
+
+
+    </script>
+
+
+  </body>
+
+</html>

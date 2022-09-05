@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banka | Transfer</title>
+    <link rel="stylesheet" href="transfer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="header">
+      <a class="banka" href="home.html" style="margin-right:380px;">BANKA</a>
+      <a class="login"  href="login.html" style="margin-left:270px;">LOG IN</a>
+      <a class="sign-up" href="sign-up.html" style="margin-right:20px">SIGN UP</a>
+    </div>
+
+   
+    <div style="margin-top:50px;">
+      <h1 style="font-size:46px;">My<span style="color:rgb(88, 221, 88);">Dashboard</span></h1>
+    </div>
+
+    <form>
+      <fieldset style="margin:0px 250px 100px 0px;
+                background-color:rgb(233, 250, 233);">
+        <legend style="font-size:26px;">Transfer</legend>
+          <div class="transfer-info">
+            <label for="acc-menu">Type of transfer</label>
+              <select name="transfer" id="acc-menu">
+                <option value="other-banks">Transfer to Other banks</option>
+                <option value="banka-acc">Transfer to Banka account</option>
+                <option value="own-acc">Transfer to Own account</option>
+                <option value="fx-banks">Transfer to FX</option>
+                <option value="fx-banka">FX transfer to Banka</option>
+                <option value="fx-other">FX transfer to Other banks</option>
+              </select>
+          </div>
+          <div class="transfer-info">
+            <label for="select-acc">Account to debit</label>
+              <select name="acc-selection" id="select-acc">
+                <option value="current">Current account</option>
+                <option value="savings">Savings account</option>
+              </select>
+          </div>
+          <div class="transfer-info">
+            <input style="margin-left:69px;" type="tel" placeholder="To Account">
+          </div>
+          <div class="transfer-info">
+            <label for="amount" style="margin-left: 43px;">&#8358;</label>
+            <input type="tel" id="amount" placeholder="Amount">
+          </div>
+          <div class="transfer-info">
+            <textarea name="remark" id="remarks" cols="30" rows="10">Remark</textarea>
+            <p style="display:inline-block;
+              margin-top:0px;padding-top:0px;font-size:13px;
+              color:rgb(88, 221, 88);text-decoration:underline;">Optional</p>
+          </div>
+          <button class="continue-btn">Continue</button>
+
+      </fieldset>
+    </form>
+
+    <div class="newsletter">
+      <p style="margin-right:25px;
+         color: white;">Newsletter</p>
+      <input placeholder="Enter email">
+      <button class="subscribe-button" type="submit">SUBSCRIBE</button>
+    </div>
+    
+    <div class="media-container">
+      <div>
+        <p style="color: white;
+           font-size: 14px;">Stay in touch</p>
+      </div>
+      <div class="media-section">
+        <img class="social-media-icon" src="icons/twitter-icon.png">
+      </div>
+      <div class="media-section">
+        <img class="social-media-icon" src="icons/facebook-icon.png">
+      </div>
+      <div class="media-section">
+        <img class="social-media-icon" src="icons/linkedin-icon.png">
+      </div>  
+    </div>
+
+    <div class="copyright">
+      Banka Wallet, Copyright &copy; 2022
+    </div>
+
+
+    <script src="banka.js"></script>
+  </body>
+
+
+</html>

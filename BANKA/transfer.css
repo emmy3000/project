@@ -1,0 +1,137 @@
+body {
+  font-family: 'Roboto',sans-serif,Arial;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+a {
+  color: black;
+  background-color: none;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: none;
+  text-decoration: none;
+}
+
+
+.header {
+  background-color: rgb(88, 221, 88);
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid;
+  border-width: 1px;
+  border-bottom-color: rgb(181, 240, 163);
+}
+
+.banka {
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 13px;
+
+}
+
+form {
+  margin: 0px 0px 0px 260px;
+}
+
+.transfer-info {
+  margin: 45px 0px 30px 35px;
+}
+
+select {
+  margin: 0px 0px 0px 20px;
+  height: 40px;
+  align-items: center;
+  font-size: 14px;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+  border-color: rgb(181, 240, 163);
+  border-radius: 4px;
+}
+
+input {
+  margin: 0px 0px 0px 10px;
+  height: 40px;
+  align-items: center;
+  font-size: 14px;
+  border-color: rgb(181, 240, 163);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+
+}
+
+input#amount {
+  margin: 0px 0px 0px 10px;
+  height: 40px;
+}
+
+textarea {
+  margin: 0px 0px 0px 70px;
+  box-shadow:inset 1px 1px 3px rgba(181, 240, 163, 0.5);
+  border-radius: 4px;
+}
+
+.continue-btn {
+  margin: 0px 0px 25px 70px;
+  padding: 20px 130px 20px 130px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(88, 221, 88);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.newsletter {
+  background-color: black;
+  margin-top: 26px;
+  padding-left: 6px;
+  padding-bottom: 11px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.subscribe-button {
+  background-color: rgb(88, 221, 88);
+  border: none;
+  border-radius: 2px;
+  padding: 5px 5px 5px 5px;
+  margin: 0px 0px 0px 10px;
+  cursor: pointer;
+}
+
+.media-container {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 100px 40px 40px 40px;
+  padding-bottom: 16px;
+  padding-left: 7px;
+  align-items: center;
+}
+
+.media-section {
+  height: 20px;
+  width: 20px;
+
+}
+
+.social-media-icon {
+  width: 100%;
+}
+
+.copyright {
+  background-color: rgb(88, 221, 88);
+  padding-left: 400px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: bold;
+  font-size: 13px;
+}

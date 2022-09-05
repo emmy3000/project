@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+
+  <head>
+
+  </head>
+
+  <body>
+
+
+
+    <script>
+      
+
+      let x = document.createElement('button');
+      x.innerText = 'UP';
+      document.body.appendChild(x);
+      x.style.marginRight = '20px';
+      
+      
+
+      let div = document.createElement('div');
+      div.innerText = 0;
+      document.body.appendChild(div);
+      div.style.display = 'inline-block';
+
+      let y = document.createElement('button');
+      y.innerText = 'DOWN';
+      document.body.appendChild(y);
+      y.style.marginLeft = '20px';
+
+      function upCount(){
+        div = div + 1;
+      }
+      upCount();
+      x.onclick = upCount();
+      
+
+      
+
+
+
+
+    </script>
+  </body>
+
+</head>

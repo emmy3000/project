@@ -1,0 +1,180 @@
+body {
+  font-family: 'Roboto',sans-serif,Arial;
+  margin: 0;
+  padding: 0;
+}
+
+
+.header {
+  background-color: rgb(88, 221, 88);
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid;
+  border-width: 1px;
+  border-bottom-color: rgb(181, 240, 163);
+}
+
+a {
+  color: black;
+  background-color: none;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: none;
+  text-decoration: none;
+}
+
+.banka {
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 13px;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.contact-info-container {
+  display: flex;
+  margin: 0px 0px 0px 15px;
+  padding: 10px 0px 0px 0px;
+}
+
+.contact-data {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.contact-input {
+  margin: 10px;
+  padding: 10px 20px 10px 5px;
+  height: 15px;
+  align-items: center;
+  font-size: 14px;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+  border-color: rgb(181, 240, 163);
+  border-radius: 4px;
+}
+
+#optional {
+  color: green;
+  font-size: 14px;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+#contact-data {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#comms {
+  margin-top: 0px;
+  font-size: 14px;
+  color: green;
+}
+
+.save-continue-btn {
+  margin: 10px 0px 15px 70px;
+  padding: 11px 130px 11px 130px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(88, 221, 88);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+#disclosures {
+  margin: 10px 0px 10px 0px;
+  font-size: 13px;
+}
+
+.disclosures {
+  font-size: 11px;
+  color: rgb(105, 102, 102);
+  width: 500px;
+}
+
+.help-desk {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-icon-div {
+  height: 60px;
+  width: 60px;
+}
+
+.mobile-icon {
+  width: 100%;
+}
+
+.help-desk-option {
+  margin: 0px 0px 0px 0px;
+  line-height: 1.5;
+}
+
+.help-desk-container {
+  margin: 100px 0px 0px 50px;
+  height: 100px;
+  padding: 10px 5px 15px 5px;
+  background-color: rgb(233, 250, 233);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  right: 5px;
+}
+
+.newsletter {
+  background-color: black;
+  margin-top: 26px;
+  padding-left: 6px;
+  padding-bottom: 11px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.subscribe-button {
+  background-color: rgb(88, 221, 88);
+  border: none;
+  border-radius: 2px;
+  padding: 5px 5px 5px 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.media-container {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 100px 40px 40px 40px;
+  padding-bottom: 16px;
+  padding-left: 7px;
+  align-items: center;
+}
+
+.media-section {
+  height: 20px;
+  width: 20px;
+
+}
+
+.social-media-icon {
+  width: 100%;
+}
+
+.copyright {
+  background-color: rgb(88, 221, 88);
+  padding-left: 400px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: bold;
+  font-size: 13px;
+}

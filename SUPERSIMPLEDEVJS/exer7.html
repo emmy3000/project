@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+  </head>
+
+  <body>
+
+    <script>
+      
+      function toUpper(stringArray) {
+        let result = [];
+
+        stringArray.forEach(function (str) {
+          result.push(str.toUpperCase());
+
+          });
+
+          console.log(result);
+
+      }
+
+      toUpper(['hello', 'World']);
+
+
+      function arrayDouble(stringArray) {
+        let result = [];
+
+        stringArray.forEach(function (str) {
+          result.push(str);
+          result.push(str);
+        });
+        
+        console.log(result);
+      }
+
+      arrayDouble(['jack', 'jill']);
+
+      
+
+      function arraySum(stringArray){
+        let total = 0
+
+        stringArray.forEach(function (num) {
+          total = total + num
+          
+        });       
+
+
+        console.log(total);
+      }
+      
+      arraySum([10, 60, 30]);
+
+
+
+    </script>
+
+
+
+  </body>
+
+</html>
